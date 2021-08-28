@@ -8,7 +8,7 @@ function setup() {
   input = createInput();
   input.position(5, 60);
 
-  heading = createElement('h4', 'Ingrese cualquier letra:');
+  heading = createElement('h4', 'Ingresa cualquier letra:');
   heading.position(5, 20);
     
   textAlign(CENTER);
@@ -41,7 +41,7 @@ function draw() {
       break;
       
     default:
-      console.log("Por favor, ingrese cualquier caracter"); 
+      console.log("Por favor, ingresa cualquier caracter"); 
   }
 }
 
